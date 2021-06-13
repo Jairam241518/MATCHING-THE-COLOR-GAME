@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_hard.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <audio id="song" src="songFinal.wav" preload="auto"></audio>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="heading">MATCH THE GRID</h1>
+    <h2 id="timer1">TIMER</h2>
+    <h2 id="smallerGrid">TARGET</h2>
+    <div id="clock">
+            <div class="timer">
+                <p><span class="hours">00</span>: <span class="minutes">00</span>: <span class="seconds">00</span> </p>
+            </div>
+        </div>
+    <button type="button" id="btn-1" onclick="window.location.href=window.location.href" >Restart</button>
+    <a href="hard.html" id="hard">
+        <button type="button" id="hardButton">HARD</button>
+      </a>
+      <a href="easy.html" id="hard">
+        <button type="button" id="easyButton">EASY</button>
+      </a>
+    <div class="container" id="container">
+      <div class="grid">
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
+        <div class="cell" id="9"></div>
+        <div class="cell" id="10"></div>
+        <div class="cell" id="11"></div>
+        <div class="cell" id="12"></div>
+        <div class="cell" id="13"></div>
+        <div class="cell" id="14"></div>
+        <div class="cell" id="15"></div>
+        <div class="cell" id="16"></div>
+      </div>
+      
+    </div>
+    <div class="acontainer">
+      
+      <div class="agrid">
+        <div class="acell" id="17" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="18" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="19" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="20" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="21" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="22" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="23" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="24" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="25" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="26" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="27" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="28" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="29" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="30" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="31" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="32" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="33" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="34" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="35" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="36" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="37" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="38" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="39" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="40" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="41" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="42" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="43" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="44" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="45" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="46" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="47" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="48" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="49" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="50" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="51" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+        <div class="acell" id="52" onclick ="movementMechanism(this.id); answerFinding(); scorePoints()" ></div>
+      </div>
+    </div>
+<script src="color-generator_hard.js"></script>
+<script src="mechanismMove_hard.js"></script>
+<script src="solution__and_timer_hard.js"></script>
+</body>
+</html>

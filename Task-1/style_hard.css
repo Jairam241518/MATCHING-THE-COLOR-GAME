@@ -1,0 +1,186 @@
+body{
+    background-color: chartreuse;
+  }
+  #hardButton{
+    margin-top: 600px ;
+    margin-left: 700px;
+    position:absolute;
+  }
+  #easyButton{
+    margin-top: 600px;
+    margin-left: 800px;
+    position:absolute;
+  }
+  
+  #btn-1{
+    background-color: aqua;
+    margin-left: 600px;
+    position: absolute;
+    font-size: 30px;
+  }
+  #timer1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 1100px;
+    position: absolute;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+  }
+  #smallerGrid{
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .container {
+      background: black;
+      display: inline-block;
+      border: 5px solid black;
+      margin-left: 50px;
+      margin-top: 50px;
+      position: absolute;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 80px);
+      grid-template-rows: repeat(4, 80px);
+      grid-gap: 5px;
+    }
+    .cell {
+      display: flex;
+      background: white;
+    }
+    .acontainer {
+      background: black;
+      display: inline-block;
+      border: 5px solid black;
+      margin-left: 500px;
+      margin-top: 50px;
+      position: absolute;
+    }
+    
+    .agrid {
+      display: grid;
+      grid-template-columns: repeat(6, 80px);
+      grid-template-rows: repeat(6, 80px);
+      grid-gap: 5px;
+      
+    }
+    .acell {
+      display: flex;
+      background: white;
+    }
+    .heading{
+    margin-left: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    position: relative;
+    }
+    #clock{
+      display:grid;
+      grid-template-rows: 0 0 2fr;
+      color:#0e0d0d;
+      font-size:2rem;
+      font-style: italic;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-left:2rem;
+      margin-left: 1100px;
+      margin-top: 130px;
+      position: absolute;
+      }
+  @media(max-width: 500px){
+    #btn-1{
+      background-color: aqua;
+      margin-left: 200px;
+      position: absolute;
+      font-size: 20px;
+    }
+    #hardButton{
+        margin-top: 600px ;
+        margin-left: 175px;
+        position:absolute;
+      }
+      #easyButton{
+        margin-top: 600px;
+        margin-left: 250px;
+        position:absolute;
+      }
+    #timer1{
+      font-size: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 150px;
+      margin-top: 50px;
+      position: absolute;
+      border: black;
+      border-style: solid;
+      border-radius: 5px;
+    }
+    #smallerGrid{
+      margin-left: 50px;
+      position: absolute;
+      margin-top: 150px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container {
+        background: black;
+        display: inline-block;
+        border: 5px solid black;
+        margin-left: 20px;
+        margin-top: 200px;
+        position: absolute;
+      }
+      
+      .grid {
+        display: grid;
+        float: center;
+        width: 50%;
+        grid-template-columns: repeat(4, 40px);
+        grid-template-rows: repeat(4, 40px);
+        grid-gap: 5px;
+      }
+      .cell {
+        display: flex;
+        background: white;
+      }
+      .acontainer {
+        background: black;
+        display: inline-block;
+        border: 5px solid black;
+        margin-left: 215px;
+        margin-top: 200px;
+        position: absolute;
+      }
+      
+      .agrid {
+        display: grid;
+        grid-template-columns: repeat(6, 40px);
+        grid-template-rows: repeat(6, 40px);
+        grid-gap: 5px;
+        
+      }
+      .acell {
+        display: flex;
+        background: white;
+      }
+      .heading{
+      margin-left: 100px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+      position: relative;
+      }
+      #clock{
+        display:grid;
+        grid-template-rows: 0 0 2fr;
+        color:#0e0d0d;
+        font-size:1.5rem;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left:2rem;
+        margin-left: 130px;
+        margin-top: 95px;
+        position: absolute;
+        }
+  
+  }
